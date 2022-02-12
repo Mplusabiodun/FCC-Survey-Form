@@ -1,0 +1,80 @@
+body { background-image: url(https://media.nature.com/lw800/magazine-assets/d41586-018-05381-w/d41586-018-05381-w_15827500.jpg);
+}
+
+#title { display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#description { font-style: Zen Old Mincho; font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#survey-form { background-color: #121046;
+  margin: 10px 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;   
+    color: white;
+  border-radius:5px;
+}
+
+#texts { margin-left: 1em;
+    margin-right: 1em;
+    font-size: 22px;
+ }
+
+#name-label { display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    }
+
+
+#email-label { display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+#number-label { display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+#name { height: 30px;
+    border-radius: 8px
+
+}
+#email { height: 30px;
+border-radius: 8px;
+}
+#number { height: 30px;
+border-radius: 8px;
+}
+
+#dropdown { height: 30px;
+border-radius: 8px;
+  width: 782px
+}
+
+#dropdown2 { height: 30px;
+    border-radius: 8px;
+   width: 782px
+}
+
+.textarea {display:flex;
+   width: 782px;
+}
+
+.submit { background-color: green;
+    color:white;
+  width:782px;
+    height: 40px;
+  font-size: 15px;
+}
