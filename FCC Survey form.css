@@ -23,31 +23,13 @@ body {
   color: white;
   border-radius: 5px;
   width: 50%;
-  /* height: 100vh; */
+  /* height: 100%; */
 }
 
 #texts {
   /* height: 100vh; */
   font-size: 20px;
 }
-
-/* #name-label {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
-
-/* #email-label {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-#number-label {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
 
 #name {
   width: 100%;
@@ -74,11 +56,10 @@ body {
 }
 
 @media screen and (max-width: 884px) {
- 
   #survey-form {
-    margin: 10px auto;
-    padding: 6px 8px;
-    border-radius: 3px;
+    margin: 3rem auto;
+    padding: 25px;
+    border-radius: 5px;
     width: 70%;
   }
 }
